@@ -16,6 +16,7 @@ This assignment is intended to evaluate your ability to design and implement an 
 - Your repository should contain a README.md file containing instructions on how to use your project, as well as a brief introduction of the algorithm used.
 - Please set your repository as a private repository shared with Github user @chbiotech.
 - During your interview, you will be asked to demonstrate and explain your solution as well as a discussion of the design of your algorithm. Please bring a laptop and anything else you think you might need.
+- Recommended: Unit tests; test cases demonstrating that your program will work in edge cases
 
 ## Task Statement
 The `.chbt` file format includes string fragments in the following format:
