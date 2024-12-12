@@ -62,7 +62,6 @@ SOMESTRINGFRAGMENTSOMESTRINGFRAGMENT
 SOMESTRINGFRAGMENTSOMESTRINGFRAGMENT
 SRMESTRINGFRAGMENTSOMESTRINGFRAGMENT
 QWERQWERQWERQWERQWERQWERQWERQWERQWER
-...
 ```
 
 Each string fragment starts with a header that begins with a `>` character followed by an ID such as `string_1` which identifies that fragment. Following that is the string fragment itself, which continues until the next string fragment header is found.
