@@ -79,7 +79,9 @@ In each string fragment, only letters are considered; line breaks, spaces, and o
 
 Most of the string fragments in this file are a substring of a longer string. If they are a substring, they will have some overlap with another piece (where the length of the overlap is random). This overlap, if it exists, is normally unique.
 
-For example, `string_1` begins with `CDEFCDEFCDEFCDEFCDEFCDEFCDEFCDEFCDEFBCDEBCDEBCDEBCDEBCDEBCDEBCDEBCDEBCDE`, and `string_3` ends with the same (see bolded section in the above table).
+For example, `string_1` begins with `CDEFCDEFCDEFCDEFCDEFCDEFCDEFCDEFCDEFBCDEBCDEBCDEBCDEBCDEBCDEBCDEBCDEBCDE`, and `string_3` ends with the same.
+
+As another example, consider the string fragments `ABCDEFGHIJK` and `FGHIJKLMNOPQ`. These have an overlap: `FGHIJK` and the complete string is `ABCDEFGHIJKLMNOPQ`.
 
 Your task is to write a program which, given an input `.chbt` file, can give:
 - The complete string assembled from the string fragments that have overlaps
